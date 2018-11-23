@@ -1,6 +1,5 @@
 {
-    "name": "brnc/message-subset",
-    "version": "0.0.1",
+    "name": "brnc/http-message-subset",
     "description": "Interfaces for subsets of PSR-7",
     "keywords": ["http-message", "http", "message", "psr-7"],
     "license": "MIT",
