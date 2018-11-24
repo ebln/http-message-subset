@@ -3,19 +3,10 @@
 namespace brnc\Contract\Http\Message;
 
 /**
- * @deprecated use CommonHeadInterface TODO remove
- *
  * subset of Psr\Http\Message\MessageInterface
  */
-interface HeaderInterface extends HeaderReadInterface
+interface HeadersInterface extends ReadHeadersInterface
 {
-    /**
-     * @param string $version
-     *
-     * @return static
-     */
-    public function withProtocolVersion($version);
-
     /**
      * @param string          $name
      * @param string|string[] $value
