@@ -25,4 +25,9 @@ request-line   = method SP request-target SP HTTP-version CRLF
 status-line    = HTTP-version SP status-code SP reason-phrase CRLF
 ```
 
-This packages now is referring to `header-field`·s as **Headers** and to the aggregation of `start-line` and `header-field` as **Head**. The `message-body` will be the **Body** and everything together the **Message**.
+This packages now is referring to
+* `header-field`·s as **Headers**
+* Aggregation of `start-line` and `header-field` as **Head**
+* `header-field`·s and the `HTTP-version` as **CommonHead**
+* The `message-body` will be the **Body** 
+* everything together the **Message**

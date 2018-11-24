@@ -5,7 +5,7 @@ namespace brnc\Contract\Http\Message;
 /**
  * subset of Psr\Http\Message\MessageInterface
  */
-interface HeaderReadInterface
+interface ReadHeadersInterface
 {
     /**
      * @return array|\string[][]
