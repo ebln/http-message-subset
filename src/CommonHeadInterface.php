@@ -5,7 +5,7 @@ namespace brnc\Contract\Http\Message;
 /**
  * subset of Psr\Http\Message\MessageInterface
  */
-interface CommonHeadInterface extends HeadersInterface
+interface CommonHeadInterface extends HeadersInterface, ReadCommonHeadInterface
 {
     /**
      * @param string $version
