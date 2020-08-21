@@ -1,3 +1,10 @@
+# DEPRECATED
+
+This package `brnc/http-message-subset` is deprecated as https://github.com/ebln/http-message-subset is now fully* PSR-7 compliant.
+They weren't very useful, either. PSR-7 isn't implementing these interfaces, so that PSR-7-compliant objects could not fulfil the interfaces despite implementing all the methods.
+
+\* `http-message-subset` being an adapter to Symfony1 classes cannot fulfil PSR-7's immutability requirement
+
 Granular Interfaces as Subsets of  PSR-7
 ========================================
 
